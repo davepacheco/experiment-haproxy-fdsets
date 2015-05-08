@@ -11,7 +11,7 @@ static void do_example(int);
 int
 main(int argc, char *argv[])
 {
-	printf("sizeof (fd_set) = %d\n", sizeof (fd_set));
+	printf("sizeof (fd_set) = %ld\n", sizeof (fd_set));
 	printf("FD_SETSIZE = %d\n", FD_SETSIZE);
 
 	printf("%7s  %10s  %11s  %10s  %11s\n",
